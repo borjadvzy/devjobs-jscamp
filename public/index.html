@@ -11,30 +11,33 @@
 
 <body>
     <header>
-        <h1>DevJobs</h1>
-        <nav>
-            <a href="/public/busqueda.html">Buscar</a>
-            <a href="">Empleos</a>
-            <a href="">Empresas</a>
-            <a href="">Salarios</a>
-        </nav>
         <section>
-            <a class="publish" href="">Publicar un empleo</a>
-            <a class="login" href="">Iniciar sesión</a>
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-device-imac-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 17h-6a1 1 0 0 1 -1 -1v-12a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v7" /><path d="M3 13h9" /><path d="M8 21h3.5" /><path d="M10 17l-.5 4" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
+            <h1>DevJobs</h1>
+            <nav>
+                <a href="/public/busqueda.html">Buscar</a>
+                <a href="">Empleos</a>
+                <a href="">Empresas</a>
+                <a href="">Salarios</a>
+            </nav>
+            <div>
+                <a class="publish" href="">Publicar un empleo</a>
+                <a class="login" href="">Iniciar sesión</a>
+            </div>
         </section>
     </header>
 
     <main>
 
-        <section>
-            <img src="/images/background.webp" />
+        <section class="search">
+            <!-- <img src="/images/background.webp" /> -->
             <h1>Encuentra el trabajo de tus sueños</h1>
             <p>Únete a la comunidad más grande de desarrolladores y encuentra tu próxima oportunidad</p>
-            <div class="buscador">
+            <form>
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
-                <p>Buscar empleos por título, habilidad o empresa</p>
+                <input type="text" placeholder="Buscar empleos por título, habilidad o empresa" />
                 <button>Buscar</button>
-            </div>
+            </form>
         </section>
 
         <section>
